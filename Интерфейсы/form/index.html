@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style/css.css">
+</head>
+<body>
+    <p id="auth" style="text-align: center; margin-right: 100px;">Авторизация</p>
+    <div id="wrapper" class="wrapper">
+        <div id="btn-form-close" class="btn-form-close"></div>
+        <div class="form-block">
+            <form action="form.php" method="post">
+                <input placeholder="Имя и Фамилия" type="text"><br>
+                <input placeholder="Пароль" type="password"><br>
+                <input value="example@post.com" pattern="*@*.*" placeholder="email" type="email">
+            </form>
+            <div onmousedown="return false" onclick="func()" href="#" class="subscribe">Подписаться</div>
+        </div>
+    </div>
+    <script src="/script.js"></script>
+</body>
+</html>
