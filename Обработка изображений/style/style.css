@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content{
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.slideshow{
+    width: inherit;
+    height: 120px;
+}
+.img_2{
+    width: 200px;
+    transition: 2s;
+}
+.img_2:hover{
+    width: 400px;
+    transition: 2s;
+}

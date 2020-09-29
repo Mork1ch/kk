@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    width: 1000px;
+    margin: 0 auto;
+}
+#pole{
+    width: 900px;
+    height: 500px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 100px;
+    position: relative;
+}
+#pole_1{
+    height: 420px;
+}
+button{
+    margin: 10px 0;
+}
