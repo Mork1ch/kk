@@ -1,0 +1,8 @@
+.block{
+margin: 10px 0;
+}
+.rectangle{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+}

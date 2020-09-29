@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    margin-top: 100px;
+}
+.content{
+    width: 1000px;
+    margin: 0 auto;
+}
+.rectangle1{
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    background-color: red;
+    float: right;
+}
+.rectangle2{
+    width: 200px;
+    height: 180px;
+    background-color: yellow;
+    float: left;
+}
