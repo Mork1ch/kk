@@ -1,0 +1,19 @@
+мar canvas = document.getElementById("Canvas")
+ctx = canvas.getContext('2d')
+
+
+strokeRect(x,y,w,h)
+fillRect - c заливкой
+clearRect
+
+strokeStyle
+fillStyle
+lineWidth
+
+ctx fillStyle = '#ffffff'
+
+beginPath
+
+1. Нарисовать прямоугольник размером 200 на 200 пикселей. Закрашенный линейным градиентом от красного до фиолетового.
+2. В области 400 на 400 пикселей создать клеточное поле с шагом 10 пикселей .
+3. в поле размером 200 на 800 наррисовать 20 окружностей с радиусом от 10 до 40 пикселей закрашенным случайным цветом.
